@@ -8,9 +8,9 @@ var listingData, server;
 var requestHandler = function(request, response) {
   var parsedUrl = url.parse(request.url);
 	//console.log(listingData);
-	if(parsedUrl=='/listings'){
+	if(parsedUrl.pathname=="/listings"){
 		response.writeHead(200, {'Content-Type':'application/json'});
-		response.write(listingData);
+		response.write(JSON.stringify(listingData));
 		response.end();
 	}
 	else{
