@@ -1,7 +1,7 @@
 /* Import mongoose and define any variables needed to create the schema */
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
-const connectionString ='mongodb+srv://Rafael:Rjm4508@cluster0-cwbxq.mongodb.net/test?retryWrites=true&w=majority';
+//const connectionString ='mongodb+srv://Rafael:Rjm4508@cluster0-cwbxq.mongodb.net/test?retryWrites=true&w=majority';
 /* Create your schema for the data in the listings.json file that will define how data is saved in your database
      See https://mongoosejs.com/docs/guide.html for examples for creating schemas
      See also https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications
